@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://wallpapercave.com/wp/wp6869875.jpg");
+  min-height: 880px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  bottom: -290px;
+  right: 10px;
+  margin: 12px;
+  width: -10px;
+  padding: 20px;
+  background-color: rgb(123, 170, 202);
+  color: rgb(171, 22, 22);
+}
+

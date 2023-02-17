@@ -1,0 +1,90 @@
+const data = {
+  animeslist: [
+    {
+      id: 1,
+      name: "Demon Slayers",
+      Seasons: "2",
+      image: "./images/A.jpeg",
+      link: "https://www.youtube.com/watch?v=bFwdl2PDAFM",
+    },
+    {
+      id: 2,
+      name: "Saitama",
+      Seasons: "2",
+      image: "./images/L.jpg",
+      link: "https://www.youtube.com/watch?v=Poo5lqoWSGw",
+    },
+    {
+      id: 3,
+      name: "My Hero Academia",
+      Seasons: "6",
+      image: "./images/C.jpeg",
+      link: "https://www.youtube.com/watch?v=mezyq2OX6TM",
+    },
+    {
+      id: 4,
+      name: "Dragon Ball Z",
+      Seasons: "8",
+      image: "./images/D.jpg",
+      link: "https://www.youtube.com/watch?v=wHAaKXtfSOg",
+    },
+    {
+      id: 5,
+      name: "Naruto Shippuden",
+      Seasons: "21",
+      image: "./images/E.jpg",
+      link: "https://www.youtube.com/watch?v=nZrLEcFhkrc",
+    },
+    {
+      id: 6,
+      name: "Tokyo Ghoul",
+      Seasons: "4",
+      image: "./images/F.jpeg",
+      link: "https://www.youtube.com/watch?v=vGuQeQsoRgU",
+    },
+    {
+      id: 7,
+      name: "Black Clover",
+      Seasons: "16",
+      image: "./images/G.jpeg",
+      link: "https://www.youtube.com/watch?v=M-JD8QqStBg",
+    },
+    {
+      id: 8,
+      name: "Haikyuu",
+      Seasons: "5",
+      image: "./images/I.jpeg",
+      link: "https://www.youtube.com/watch?v=GNe_8By_32s",
+    },
+    {
+      id: 9,
+      name: "Tokyo Revengers",
+      Seasons: "2",
+      image: "./images/J.png",
+      link: "https://www.youtube.com/watch?v=wXvnmUg8I0M",
+    },
+    {
+      id: 10,
+      name: "Attack On Titans",
+      Seasons: "4",
+      image: "./images/B.png",
+      link: "https://www.youtube.com/watch?v=i3dxsyMJCqA",
+    },
+    {
+      id: 11,
+      name: "Death Note",
+      Seasons: "1",
+      image: "./images/K.jpeg",
+      link: "https://www.youtube.com/watch?v=NlJZ-YgAt-c",
+    },
+
+    {
+      id: 12,
+      name: "Baki",
+      Seasons: "3",
+      image: "./images/M.jpg",
+      link: "https://www.youtube.com/watch?v=1fSp8NJEw34",
+    },
+  ],
+};
+export default data;

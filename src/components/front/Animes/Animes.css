@@ -1,0 +1,95 @@
+.animes {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(32, 22, 3);
+  border-radius: 5px;
+}
+
+.card {
+  margin: 1%;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: rgb(9, 83, 25);
+  width: 22%;
+  border-radius: 40px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+  height: 440px;
+}
+
+.anime-image {
+  width: 100%;
+  height: 240px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  padding: 16px 16pcx 16px 16px;
+  background-color: rgb(23, 23, 224);
+}
+
+.anime-name {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: rgb(235, 245, 245);
+  background-color: rgb(80, 34, 19);
+  text-transform: capitalize;
+  padding-left: 90px;
+  padding-left: 100px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: serif;
+}
+
+.anime-season {
+  margin: 10px 0px;
+  padding-bottom: 4px;
+  padding-left: 100px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 80px;
+  background-color: rgb(163, 163, 100);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.anime-add-button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: black;
+  width: 70%;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 15px auto;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: rgb(252, 248, 248);
+}
+
+.anime-add-button:hover {
+  background-color: red;
+}
+
+.anime-add-button:active {
+  transform: translateY(3px);
+}
+.btnStyle {
+  border-radius: 5px;
+  background-color: rgb(90, 36, 36);
+  width: 38%;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 15px auto;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: rgb(252, 248, 248);
+}
+.btnStyle:hover {
+  color: red;
+}
